@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>INST377 - Lab 4</title>
+    <link rel = "stylesheet" href = "lab4.css">
+    <script src="lab4.js"></script>
+</head>
+
+<body>
+    <header>
+        <h1>INST377 - Lab 4</h1>
+    </header>
+
+    <main>
+        <section id="left">
+        <form id="alertForm" onsubmit="validName()">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+            <button type="submit">Alert Me!</button>
+        </form>
+        </section>
+
+        <section id="click">
+            <button onclick="changeColor()">Change Color</button>
+        </section>
+
+        <section id="left">
+        <form id="validateForm" onsubmit="formValidation()">
+            <label for="testedText">Text Tester:</label>
+            <input type="text" id="textvalidate" name="text" required>
+            <button type="submit"> Validate Text </button>
+        </form>
+        </section>
+
+        <section id="click">
+            <button onclick="addText()">Add Text</button>
+        </section>
+    </main>
+</body>
+</html>
