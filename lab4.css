@@ -1,0 +1,36 @@
+body {
+    background-color: aquamarine;
+}
+
+main {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#left {
+    background-color: rgb(69, 53, 164);
+    border: 5px solid white;
+    border-radius: 15px;
+    text-align: center;
+
+    height: 10%;
+    width: 40%;
+    
+    margin: 10px auto 10px auto;
+    padding: 25px;
+    
+}
+
+#click {
+    background-color: rgb(69, 53, 164);
+    border: 5px solid white;
+    border-radius: 15px;
+    text-align: center;
+
+    height: 10%;
+    width: 20%;
+ 
+    margin: 10px auto 10px auto;
+    padding: 25px;
+
+}
